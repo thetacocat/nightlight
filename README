@@ -1,0 +1,7 @@
+Simple website to change the Pimoroni Blinkt! on a Raspberry Pi.
+
+I used a Raspberry Pi Zero to connect to the Pimoroni Blinkt! to use as a nightlight and an ok to wake clock.
+
+Install Raspbian on a Pi
+Run updates
+Get Python library for Blinkt! - https://github.com/pimoroni/blinkt
