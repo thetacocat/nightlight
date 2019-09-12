@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Night Light </title>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<table style="width:100%">
+<tr>
+<td>
+<form action="/red" method="post">
+<input type="image" src="/static/red.png" value="red"></input>
+</form>
+</td>
+<td>
+<form action="/yellow" method="post">
+<input type="image" src="/static/yellow.png" value="yellow"></input>
+</form>
+</td>
+</tr>
+<tr>
+<td>
+<form action="/green" method="post">
+<input type="image" src="/static/green.png" value="green"></input>
+</form>
+</td>
+<td>
+<form action="/blue" method="post">
+<input type="image" src="/static/blue.png" value="blue"></input>
+</form>
+</td>
+</tr>
+<tr>
+<td>
+<form action="/clear" method="post">
+<input type="image" src="/static/clear.png" value="clear"></input>
+</form>
+</td>
+<td></td>
+</tr>
+</table>
+</body>
+</html>
