@@ -5,3 +5,4 @@ I used a Raspberry Pi Zero to connect to the Pimoroni Blinkt! to use as a nightl
 Install Raspbian on a Pi
 Run updates
 Get Python library for Blinkt! - https://github.com/pimoroni/blinkt
+Install Flask
